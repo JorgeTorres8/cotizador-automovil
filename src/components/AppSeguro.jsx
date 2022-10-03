@@ -13,7 +13,7 @@ const AppSeguro = () => {
             >Cotizador de Seguros de Auto</h1>
         </header>
 
-        <main className=" bg-gray-200 md:w-2/3 lg:w-2/4 mx-auto shadow rounded-lg p-10">
+        <main className=" bg-gray-200 md:w-2/3 lg:w-2/4 mx-auto shadow rounded-lg p-10 mb-5">
           <Formulario/>
           {cargando ? <Spinner/> : <Resultado/>} 
            
